@@ -3,8 +3,13 @@ body {
 	font-size: 0.9em;
 	color: #000000;
 	margin-left: 10px;
-	background-color:#000000;
+   	background-image: url("bg.jpg");
+   	background-color: #cccccc;
+   	background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover; /* Resize the background image to cover the entire container */
 }
+
 h1 {
 	color: #FFFFFF;
 }
